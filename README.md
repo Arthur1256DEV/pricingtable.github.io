@@ -1,1 +1,1 @@
-# pricingtable.github.io
+# https://arthur1256dev.github.io/pricingtable.github.io/
