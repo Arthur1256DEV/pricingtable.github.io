@@ -46,6 +46,7 @@ li{
 
 .groupContainers{
     display: flex;
+    justify-content: center;
     position: absolute;
     min-width: 445px;
     width: 100vw;
@@ -66,10 +67,6 @@ li{
     width: 30vw;
     height: 100%;
     transition: 0.3s;
-}
-
-.oneContainer:first-child{
-    margin-left: 7vw;
 }
 
 .oneContainer:nth-child(2){
@@ -185,4 +182,15 @@ li{
     border-radius: 10px;
     width: 60px;
     
+}
+
+@media (max-width: 720px){
+    .oneContainer:first-child{
+        margin-left: 130px;
+    }
+
+    .oneContainer{
+        min-height: 500px;
+        max-height: 600px;
+    }
 }
